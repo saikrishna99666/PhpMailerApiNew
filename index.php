@@ -40,11 +40,11 @@
                             $mail->Host = "localhost"; // Enter your host here
                             $mail->SMTPAuth = false;
 							$mail->SMTPAutoTLS = false; 
-                            $mail->Username = "test@victorygroup4all.com"; // Enter your email here
-                            $mail->Password = "Test@991"; //Enter your passwrod here
+                            $mail->Username = "YourMail"; // Enter your email here
+                            $mail->Password = "Password"; //Enter your passwrod here
                             $mail->Port = 25;
                             $mail->IsHTML(true);
-                            $mail->From = "test@victorygroup4all.com";
+                            $mail->From = "YourMail";
                             $mail->FromName = "From Name";
 
                             $mail->Subject = $subject;
