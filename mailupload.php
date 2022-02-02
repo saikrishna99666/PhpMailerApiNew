@@ -1,14 +1,9 @@
 
-
 <?php use \PHPMailer\PHPMailer\PHPMailer; ?>
-
                         <?php
-
                         require("vendor/autoload.php");
 
                         if (isset($_POST['email'])) {
-
-
 
                             $email = $_POST['email'];
 
@@ -89,30 +84,3 @@
                         }
 
                         ?>
-
-                
-
-
-
-                     
-
-
-
-                  
-
-
-
-               
-
-    
-
-
-
-
-
-
-
-
-
-
-
